@@ -1,0 +1,29 @@
+{
+  "name": "pythonproject11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "lucide-react": "^1.39.0",
+    "react": "^19.2.8",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.2.8",
+    "react-icons": "^5.7.0",
+    "react-parallax": "^3.5.2",
+    "react-parallax-tilt": "^1.7.339",
+    "react-router-dom": "^7.18.2",
+    "simple-icons": "^16.29.0",
+    "tilt": "^0.2.0"
+  },
+  "devDependencies": {
+    "vite": "^8.2.1"
+  }
+}
