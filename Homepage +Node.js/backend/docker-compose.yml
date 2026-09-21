@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres
+    container_name: bridgenatix-db
+    environment:
+      POSTGRES_PASSWORD: bridgenatix123
+      POSTGRES_DB:  admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
